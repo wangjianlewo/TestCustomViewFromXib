@@ -14,6 +14,8 @@
 		F6E3627D1A25ABEC00F5D027 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6E3627C1A25ABEC00F5D027 /* Images.xcassets */; };
 		F6E362801A25ABEC00F5D027 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6E3627E1A25ABEC00F5D027 /* LaunchScreen.xib */; };
 		F6E3628C1A25ABEC00F5D027 /* TestCustomViewFromXibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E3628B1A25ABEC00F5D027 /* TestCustomViewFromXibTests.m */; };
+		F6E362971A25AD4E00F5D027 /* TestCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E362961A25AD4E00F5D027 /* TestCustomView.m */; };
+		F6E3629B1A25ADB800F5D027 /* TestCustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6E3629A1A25ADB800F5D027 /* TestCustomView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		F6E362851A25ABEC00F5D027 /* TestCustomViewFromXibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestCustomViewFromXibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6E3628A1A25ABEC00F5D027 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F6E3628B1A25ABEC00F5D027 /* TestCustomViewFromXibTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestCustomViewFromXibTests.m; sourceTree = "<group>"; };
+		F6E362951A25AD4E00F5D027 /* TestCustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCustomView.h; sourceTree = "<group>"; };
+		F6E362961A25AD4E00F5D027 /* TestCustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCustomView.m; sourceTree = "<group>"; };
+		F6E3629A1A25ADB800F5D027 /* TestCustomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestCustomView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +90,9 @@
 				F6E362741A25ABEC00F5D027 /* AppDelegate.m */,
 				F6E362761A25ABEC00F5D027 /* ViewController.h */,
 				F6E362771A25ABEC00F5D027 /* ViewController.m */,
+				F6E362951A25AD4E00F5D027 /* TestCustomView.h */,
+				F6E362961A25AD4E00F5D027 /* TestCustomView.m */,
+				F6E3629A1A25ADB800F5D027 /* TestCustomView.xib */,
 				F6E362791A25ABEC00F5D027 /* Main.storyboard */,
 				F6E3627C1A25ABEC00F5D027 /* Images.xcassets */,
 				F6E3627E1A25ABEC00F5D027 /* LaunchScreen.xib */,
@@ -200,6 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6E3627B1A25ABEC00F5D027 /* Main.storyboard in Resources */,
+				F6E3629B1A25ADB800F5D027 /* TestCustomView.xib in Resources */,
 				F6E362801A25ABEC00F5D027 /* LaunchScreen.xib in Resources */,
 				F6E3627D1A25ABEC00F5D027 /* Images.xcassets in Resources */,
 			);
@@ -220,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6E362781A25ABEC00F5D027 /* ViewController.m in Sources */,
+				F6E362971A25AD4E00F5D027 /* TestCustomView.m in Sources */,
 				F6E362751A25ABEC00F5D027 /* AppDelegate.m in Sources */,
 				F6E362721A25ABEC00F5D027 /* main.m in Sources */,
 			);
